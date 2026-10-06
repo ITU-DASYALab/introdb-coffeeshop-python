@@ -139,7 +139,7 @@ def get_all_purchases():
 
 
 @app.get("/mypurchases")
-def get_user_purchases(session: str):
+def get_user_purchases(username: str):
     """
     Returns all purchases for a given user
     ### Parameters
