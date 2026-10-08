@@ -30,7 +30,7 @@
     <script>
       async function loadPurchases(){
         try {
-          const purchases = await api('/mypurchases?session=' + getToken());
+          const purchases = await api('/mypurchases?username=' + getToken());
           const tbody = document.getElementById('rows');
           tbody.innerHTML = '';
           purchases.forEach(x => {

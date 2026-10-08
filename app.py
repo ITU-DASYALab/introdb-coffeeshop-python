@@ -118,11 +118,7 @@ def insert_user(new_user: Registration):
 @app.get("/purchases")
 def get_all_purchases():
     """
-    Returns all purchases for a given user
-    ### Parameters
-    session: str
-        The username of the user
-    ### Returns
+    Returns all purchases
     list:
         A list of dictionaries with the purchase information
     """
@@ -143,7 +139,7 @@ def get_user_purchases(username: str):
     """
     Returns all purchases for a given user
     ### Parameters
-    session: str
+    username: str
         The username of the user
     ### Returns
     list:
