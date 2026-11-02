@@ -30,8 +30,8 @@ create table purchase(
 	primary key (purchasetime, productname, username)
 );
 insert into purchase values
- ('2025-09-11 9:55'::timestamp, 'Tea', 'Martin'),
- ('2025-09-12 10:03'::timestamp, 'Small', 'Martin'),
- ('2025-09-12 10:05'::timestamp, 'Small', 'Omar'),
- ('2025-09-12 10:06'::timestamp, 'Large', 'Omar'),
- ('2025-09-19 9:00'::timestamp, 'Small', 'Martin');
+ ('2027-02-11 9:55'::timestamp, 'Tea', 'Martin'),
+ ('2027-02-12 10:03'::timestamp, 'Small', 'Martin'),
+ ('2027-02-12 10:05'::timestamp, 'Small', 'Omar'),
+ ('2027-02-12 10:06'::timestamp, 'Large', 'Omar'),
+ ('2027-02-19 9:00'::timestamp, 'Small', 'Martin');
